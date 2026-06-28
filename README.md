@@ -6,7 +6,7 @@ Real-time drone fleet monitoring dashboard with a simulated telemetry backend.
 
 ```
 ┌─────────────────────────────────────────────┐
-│                   Browser                    │
+│                   Browser                   │
 │  Next.js 15 · Deck.gl · MapLibre GL         │
 │  WebSocket ──► /ws/fleet (1 s)              │
 │  WebSocket ──► /ws/drone/:id (500 ms)       │
@@ -14,7 +14,7 @@ Real-time drone fleet monitoring dashboard with a simulated telemetry backend.
 └────────────────────┬────────────────────────┘
                      │ HTTP / WS
 ┌────────────────────▼────────────────────────┐
-│              mock-api :3001                  │
+│              mock-api :3001                 │
 │  Node.js · Express · ws                     │
 │  Fleet simulator — 12-20 drones             │
 │  Warsaw bounding box (configurable)         │

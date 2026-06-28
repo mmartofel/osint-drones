@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Heading arrow pointing north (up) — rotated by getAngle per drone -->
+  <polygon points="32,2 27,14 37,14" fill="white"/>
+  <!-- Arms -->
+  <line x1="22" y1="22" x2="7" y2="7" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="42" y1="22" x2="57" y2="7" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="22" y1="42" x2="7" y2="57" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="42" y1="42" x2="57" y2="57" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <!-- Central body -->
+  <rect x="22" y="22" width="20" height="20" rx="3" ry="3" fill="white"/>
+  <!-- Rotors at four corners -->
+  <circle cx="7"  cy="7"  r="7" fill="white" opacity="0.85"/>
+  <circle cx="57" cy="7"  r="7" fill="white" opacity="0.85"/>
+  <circle cx="7"  cy="57" r="7" fill="white" opacity="0.85"/>
+  <circle cx="57" cy="57" r="7" fill="white" opacity="0.85"/>
+</svg>
